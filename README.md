@@ -1,7 +1,7 @@
 # Ops 401
 
 
-*Author: Jin Kim*
+*Author: Jin Kim*  
 [Deployed Website](https://jinwoov.github.io/Ops401/)
 
 ---
