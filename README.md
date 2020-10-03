@@ -2,6 +2,7 @@
 
 
 *Author: Jin Kim*
+[Deployed Website](https://jinwoov.github.io/Ops401/)
 
 ---
 
