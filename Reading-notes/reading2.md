@@ -61,3 +61,30 @@
     - Firewalls and next-generation firewalls (NGFW) which can function as an IPS
     - Log management systems (commonly as part of the SIEM)
     - Cyber threat intelligence feeds and databases
+
+---
+
+# Introduction to Nagios Monitoring Tool
+- Nagios is monitoring tool for monitoring the network in several ways.
+- Nagios is capable of monitoring the server and find the performance drop.
+1. Services offered
+    - Nagios operates in Linux so that it can be monitored for UNIX operating systems.
+    - Various types of network services can be monitored, including SMTP,HTTP,POP2, SNMP, NNTP, SSH, FTP
+2. Importance of Nagios
+    - Server can be continuously monitored to check for security and performance issues. 
+    - Tools support many different programming languages that can b identified in network and application. 
+3. Nagios Features 
+    - Easily find the issues present in-network.
+    - manages the log and database system.
+    - Provides informative web interface and easy to use interface so that network can be monitored easily.
+    - When there is crash in the app, it will notify user to take immediate action
+    - Bottleneck can be identified by Nagios
+    - Tools offer continuous monitoring options
+    - tool can monitor many network services
+    - Provides failover capability and continuous monitoring so that performance can be stable.
+4. Nagios Architecture
+    - It is like client server type architecture.
+    - nagios monitoring provides different plugins and provides intelligence so that the network can be host by Nagios core.
+5. Nagios Benefits
+    - Tool help to increase availability of services, server, app, and process so that user can use to monitor the network.
+    - Server failover can be easily detected
