@@ -14,4 +14,5 @@ This repository is collections of readings, code-challenges and class-notes of O
 ## Ops401 - Cybersecurity Engineer
 
 1. [Reading 1](./Reading-notes/reading1.md)
+2. [Reading 2](./Reading-notes/reading2.md)
 

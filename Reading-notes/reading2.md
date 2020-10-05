@@ -36,4 +36,14 @@
 - Challenges facing security operation centers
     - Increased volumes of security alerts - requires a significant amount of an analysts time. 
     - Management of many security tools- SOC can use more than 20 tools and it can be hard to keep track of and control individually making it important to have a central source and a single platform
-    - Resource allocation - staffing or lack of qualified individuals is an issue. Organization may decide to outsource, however, the issue of greater vulnerability that comes with remote working conditions arises.
+    - Resource allocation - staffing or lack of qualified individuals is an issue. Organization may decide to outsource, however, the issue of greater vulnerability that comes with remote working conditions arises. Some organization uses MSSP to help them with their SOC services via outsourcing.
+- 5 Steps to setting up your first SOC
+    1. Ensure everyone understands what the SOC does
+        - SOC checks endpoints and the network of the organization, and isolates and addresses possible security issues
+    2. Provides Infrastructure for your SOC
+        - Without proper tools given to SOC team, team is bound to fail
+    3. Find the right people
+    4. Have an incident response plan ready
+    5. Defend
+- 3 Security Operations center best practices
+    - 
