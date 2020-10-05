@@ -46,4 +46,18 @@
     4. Have an incident response plan ready
     5. Defend
 - 3 Security Operations center best practices
-    - 
+    1. Detect threats through all stages of an attack
+        - Organization must deploy prevention and detection approaches through out the entire attack chain
+        - Design the technologies to function together and communicate information
+    2. Investigate all alerts to ensure nothing is overlooked
+        - Organizations need to develop solutions that not only group alerts but automate investigation and validate them.
+    3. Gather forensic evidence for investigation and remediation
+        - Organization should find solution for forensics that are simple ot use and automated
+- Some of the tools used by SOC
+    - Security information and event management (SIEM)
+    - Governance, risk and compliance (GRC) systems
+    - Vulnerability scanners and penetration testing tools
+    - Intrusion detection systems (IDS), intrusion prevention systems (IPS), and wireless intrusion prevention
+    - Firewalls and next-generation firewalls (NGFW) which can function as an IPS
+    - Log management systems (commonly as part of the SIEM)
+    - Cyber threat intelligence feeds and databases
