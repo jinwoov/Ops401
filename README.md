@@ -15,4 +15,5 @@ This repository is collections of readings, code-challenges and class-notes of O
 
 1. [Reading 1: Kali Linux and Metasploit](./Reading-notes/reading1.md)
 2. [Reading 2: ISCM with Nagios](./Reading-notes/reading2.md)
+3. [Reading 3: Security Auditing with CSET](./Reading-notes/reading3.md)
 
