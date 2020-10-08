@@ -27,4 +27,19 @@
     - Context aware network access control is policy-based and it predetermines an event as well as its outcome based on various attributes. The higher the risk, it is best to restrict authentication process.
 - Federated Identity Management let you share your authentication with trusted partner. It allows users to gain access to ore than one network.
 - Single Sign on is an important part of federated ID management, it let you authenticate one network and carry over to another.
-- Authorization sends message using `Security Assertion Markup Language` (SAML). It achieve interoperability across different vendor 
+- Authorization sends message using `Security Assertion Markup Language` (SAML). It achieve interoperability across different vendors.
+- Other open-standard identity protocols are OpenID,WS-Trust, and WS-Federation and OAuth
+- data-protection was their biggest concern for most of the organization using IAM
+- Security prefssionals are also concern about integrating IAM with legacy system, moving to cloud and employee using unapproved technology.
+- Access Management: refers to the processes and technologies used to control and monitor network access
+- Active Directory: Microsoft software that is developed to manage user
+- Biometric authentication: Authenticating identity using fingerprint sensor, iris, and retina scanning and facial recognition
+- Context aware network access control is policy based method of granting access to network resource
+- Deprovisioning: removing the identity from ID repository 
+- Digital identity: ID itself, description of the user and their privileges
+- Identity lifecycle management: set of processes and technologies for maintaining and updating digital identities.
+- LDAP: open standards based protocol for managing and accessing a distributed directory service
+- Risk based authentication: dynamically adjust authentication requirement based on user's situation at given time. 
+- SSO: accss control for multiple related but separate system.
+- User Behavior analytics: UBA technologies examine patters of user behavior and automatically apply algorithms
+- 
