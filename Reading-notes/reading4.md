@@ -22,7 +22,7 @@
     3. A system that regulates user access
     4. auditing and reporting system
 - regulating user access has traditionally invovled a number of authentication methods: including passwords, digital certificates, tokens, and smart cards
-- With advance in technology having just password authentication is not enough. 
+- With advance in technology having just password authentication is not enough.  
 - Multi-factor authentication
     - Context aware network access control is policy-based and it predetermines an event as well as its outcome based on various attributes. The higher the risk, it is best to restrict authentication process.
 - Federated Identity Management let you share your authentication with trusted partner. It allows users to gain access to ore than one network.
