@@ -17,7 +17,7 @@
 - IAM can lower the number of help-desk calls
 - Well manage IAM means greater control of user access
 - There are four basic elements when it comes to IAM
-    1. Directory of the personal data the system uses to define individuals
+    1. Directory of the personal data the system uses to define individuals 
     2. A set of tools for adding, modifying and deleting that data
     3. A system that regulates user access
     4. auditing and reporting system
