@@ -28,3 +28,37 @@
 
 ---
 
+- public key infrastructure (PKI): diital certificate
+- need lots of thinking and need a lot of planning
+- PKI refers to public key to person and trust is created by certificate authority
+- Key management lifecycle  
+    - Key generation 
+    - Certificate generation
+        - allocate key to a user
+    - make the key available to the user
+    - Storage
+        - securely store and protect against unauthorized use
+    - Revocation
+        - manage keys that have been compromise
+    - expiration 
+        - shell life
+- Public key certificate
+    - binds a public key with digital sign
+    - a digital signature adds trust
+        - PKI uses certificate authority for additional trust
+        - web of trust adds additional trust
+- Digtal certificate
+    - have version
+    - serial number
+    - public key 
+    - issuer
+    - can also add more info
+- Web browser has many authority certificate
+- website should have certificate authority can sign it
+- anyone who owes website can get CA to sign the certificate so that it can authenticate the certificate
+- it starts with public key and private key
+- certificate signing request is to send the public key to the CA
+- after its authenticated they will send back with signature
+- Windows have windows certificate services, or open ca for private PKI
+- OCSP: online certificate status protocol 
+
