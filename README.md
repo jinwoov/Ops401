@@ -22,4 +22,5 @@ This repository is collections of readings, code-challenges and class-notes of O
 4. [Reading 4: Identity and Access Management](./Reading-notes/reading4.md)
 5. [Reading 6: Data file encryption](./Reading-notes/reading6.md)
 6. [Reading 7: Protecting Data at Rest with Devices](./Reading-notes/reading7.md)
+7. [Reading 8: Data Loss Prevention and Data](./Reading-notes/reading8.md)
   
