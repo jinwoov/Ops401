@@ -21,3 +21,37 @@
     - Data integrity checking mechanisms that employ hash functions and digital signatures.
     - Built-in support for High Availability configurations, active-active and active-passive
     Data Loss Prevention (DLP), which automatically detects the presence of sensitive data and take appropriate action (e.g. cancel the download or apply encryption)
+
+---
+
+- Hash are products of cryptographic algorithm
+- MD5, SHA-1, and SHA-256 are different hash functions
+- To confirm that file integrity is same, you can run the filehash and check if it matches other endpoint
+- To check hash value
+
+```ps1
+Get-FileHash C:\path\to\file.iso
+```
+- You can run against different hashing algo using `-Alorithm` modifier with `<hashing function>`
+- On mac go to terminal
+```sh
+md5 /path/to/file
+```
+- to show sha-1 algo
+```sh
+shasum /path/to/file
+```
+
+```sh
+shasum -a 256 /path/to/file
+```
+
+- on Linux
+```sh
+md5sum /path/to/file
+sha1sum /path/to/file
+sha256sum /path/to/file
+```
+The internet protocol uses hashing as well and when encrypted it is using HTTPS
+
+
