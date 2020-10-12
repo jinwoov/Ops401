@@ -28,3 +28,16 @@ ABC - > xyz -> ABC
 - SHA - secure hashing algorithm 1, 2,3, 256
 - DSA sym
 - PKI certificate
+- Important to remember MD5 SHA 1,2,3 
+- VPN: DES is obsolete -> 3DES
+    - AES 
+    - DH
+- PKI
+- Hashing is payload sits there and generating hash string value - done
+    - Hash dumping: dumping the whole hashed strings
+- Encryption is 
+- Man in the middle attack
+    - if you have encryption to the wifi or http or ftp connection to the wifi, then man in the middle can use wireshark to capture the packet
+    - if someone performs man in the middle attack then hope is to prevent confidentiality
+- Data in transit: if the data is moving then you need to wrap it to the 
+- Data in rest: only accessible 
