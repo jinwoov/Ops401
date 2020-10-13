@@ -107,6 +107,8 @@ def encryptMessage(key):
 def decryptMessage(key, msg):
     f = Fernet(key)
     decryptMessage = f.decrypt(msg)
+    print("Decrypting message")
+    animated_marker()
     print(colors.fg.green, decryptMessage, colors.reset)
 
 ## Helper Methods
