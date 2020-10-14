@@ -50,4 +50,12 @@ Https => SSL
         - Where are you putting the data
         - whoever owns the data 
         - AWS, System admin
-        - 
+- Spring cleaning
+    - schedule that once a year
+    - this helps with data classification
+    - classificating to different categories
+    - Controlled Proprietary
+    - normal/ uncontrolled
+- Standards of classification
+    - content based
+    - inspect the file and 
