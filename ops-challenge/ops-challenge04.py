@@ -34,7 +34,9 @@ def interface(key):
         print(colors.fg.green, "Thanks for playing", colors.reset)
         exit(0)
     filePassage(userChoice,key)
-    
+
+
+
 ## reading all of the file and encrypt it 
 def filePassage(uc, key):
     global listOfFiles
@@ -42,6 +44,8 @@ def filePassage(uc, key):
     if(uc == "1"):
         for (dirpath, dirnames, filenames) in os.walk(currentPath):
             listOfFiles += [os.path.join(dirpath, file) for file in filenames]
+    if(uc == "2" and len(listOfFiles) <= 0):
+        print(colors.fg.red, "you have to encrypt file first !!!",colors.reset)
     for elem in listOfFiles:
         print(elem)
         if(uc == "1"):
@@ -49,7 +53,8 @@ def filePassage(uc, key):
         elif(uc == "2"):
             decryptFile(elem, key)
         animated_marker()
-
+    print(colors.fg.magenta, "Process Complete. Press any key to go to interface", colors.reset)
+    input()
 
 ## invoke the function of whichever user's choice is
 
@@ -93,6 +98,7 @@ def animated_marker():
 class colors:
     reset='\033[0m'
     class fg:
+        magenta='\033[35m'
         green='\033[32m'
         red='\033[0;31m'
         orange = '\033[33m'
