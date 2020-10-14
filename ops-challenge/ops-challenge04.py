@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from cryptography.fernet import Fernet
-import time, progressbar, os, getpass
+import time, progressbar, os
 
 currentPath = "./"
 listOfFiles = list()
