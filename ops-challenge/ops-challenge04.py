@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
+# Script Name: Ops Challenge 4
+# Author: Jin Kim
+# Date of last revision: 10/14/2020
+# Description of purpose: Encrypt and decrypt the folder recursively.
 
+
+# Library imports
 from cryptography.fernet import Fernet
 import time, progressbar, os
 
+# Declare variables
 currentPath = "./"
 listOfFiles = list()
 keyLocation = "../key.key"
 
-
+# Declare functions
 ## interface where user will see
 def interface(key):
     print("""
@@ -56,8 +63,8 @@ def filePassage(uc, key):
     print(colors.fg.magenta, "Process Complete. Press any key to go to interface", colors.reset)
     input()
 
-## invoke the function of whichever user's choice is
 
+## Encrypting the files
 def encryptFile(file, key):
     f = Fernet(key)
     with open(file, "rb") as fl:
@@ -66,6 +73,8 @@ def encryptFile(file, key):
     with open(file, "wb") as fl:
         fl.write(encrypt_data)
 
+
+## Decrypting the files 
 def decryptFile(file, key):
     f = Fernet(key)
     with open(file, "rb") as lines:
@@ -86,6 +95,7 @@ def generateKey():
 def loadKey():
     return open(keyLocation, "rb").read()
 
+## Spinner
 def animated_marker(): 
     widgets = ['In Process: ', progressbar.AnimatedMarker()] 
     bar = progressbar.ProgressBar(widgets=widgets).start() 
@@ -95,6 +105,7 @@ def animated_marker():
     print ("\033[A                             \033[A")
     print("Finished!")
 
+## Class of colors that will be used to show for the output
 class colors:
     reset='\033[0m'
     class fg:
@@ -103,6 +114,7 @@ class colors:
         red='\033[0;31m'
         orange = '\033[33m'
 
+## MAIN function that will be ran when this is compiled
 def main():
     if(os.path.exists(keyLocation) is False):
         generateKey()
@@ -114,3 +126,5 @@ def main():
 # MAIN
 if __name__ == "__main__":
     main()
+
+# END
