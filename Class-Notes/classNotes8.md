@@ -1,4 +1,4 @@
-HTTps => SSL
+Https => SSL
 
 - Triple encryption: 
     - instream encryption
@@ -38,4 +38,16 @@ HTTps => SSL
 - what extence of private and public
 - Data owner, data custodian system owner 
 - Data owner
-    - 
+    - CEO 
+        - Accountability
+        - level of responsibility
+    - data custodian:
+        - Taking custody of data
+        - person who takes care the data 
+        - handling the fact that data exists and watches who can gain the access
+        - such as different department who handles specific data 
+    - System owner: individual who handles the various data owner
+        - Where are you putting the data
+        - whoever owns the data 
+        - AWS, System admin
+        - 
