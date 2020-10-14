@@ -7,4 +7,35 @@ HTTps => SSL
 - DES does 16 rounds
 - SHA 256 
 - DLP can be program (policies), product or tools
-- 
+- if there isn't way to 
+- DLP Types
+    - Networks
+    - endpoint
+        - lab
+        - single computer
+        - agent based
+    - cloud
+        - office 365
+            - has DLP ability. Had been applied lately.
+        - AWS
+            - Macie
+- false positive - computer thinks that there is a problem = but reality there is no problem <-- better
+- false negative - computer thinks that there is a no problem = but reality there is problem
+
+- annoying is better than unaware
+
+- suffer from alert fatigue
+
+- true positive: detect a problem -> reality is there is a problem.
+- true negative: there is no problem and when system thinks there is a problem <-- better
+- CISO: executive that focuses on security
+- Two different topic
+    - encryption
+    - DLP
+- What is my specific reason to adopt DLP
+    - Is there specific reason why
+    - Weigh out on pros and cons
+- what extence of private and public
+- Data owner, data custodian system owner 
+- Data owner
+    - 
