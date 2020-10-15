@@ -35,4 +35,8 @@
 	- written, writing reports, presentation, communication, being able to communicate verbally.
 	- able to provide actionable action
     - harder for me to break next time.
-- 
+- Certs vs Skills 
+    - skills - need more
+    - academic aptitude <-- important
+    - certification comes after
+    - sec+
