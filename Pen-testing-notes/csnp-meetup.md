@@ -46,4 +46,9 @@
     - Offensive meet up
     - discord
     - look for network group
-    
+- what kind of job title is tied to pen testing
+    - third party pen test
+    - mostly large company has pen test
+    - just pen test job
+    - Ops sec, dev sec ops => pen test
+    - 
