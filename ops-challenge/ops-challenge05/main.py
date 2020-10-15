@@ -38,8 +38,7 @@ def interface(key):
 ## Create a main function to execute following functions
 def main():
     keyring = Key()
-    print(mal.user_name)
-    # interface(keyring.gkey)
+    interface(keyring.gkey)
     
     
 
@@ -47,9 +46,7 @@ def main():
 
 # MAIN
 if __name__ == "__main__":
-    mal = Malware()
-    mal.change_desktop_wallpaper()
-    # while True:
-    #     main()
+    while True:
+        main()
 
 # END
