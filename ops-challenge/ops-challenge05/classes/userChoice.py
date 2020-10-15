@@ -1,38 +1,38 @@
 from cryptography.fernet import Fernet
-from helper_method import *
+from .helper_method import *
+from .encrypting import *
+from .decrypting import *
+from .recursion import *
 
 currentPath = "./"
 listOfFiles = list()
-
-# def filePassage(uc, key):
-#     global listOfFiles
-#     f = Fernet(key)
-#     if(uc == "1"):
-#         for (dirpath, dirnames, filenames) in os.walk(currentPath):
-#             listOfFiles += [os.path.join(dirpath, file) for file in filenames]
-#     if(uc == "2" and len(listOfFiles) <= 0):
-#         print(colors.fg.red, "you have to encrypt file first !!!",colors.reset)
-#     for elem in listOfFiles:
-#         print(elem)
-#         if(uc == "1"):
-#             encryptFile(elem, key)
-#         elif(uc == "2"):
-#             decryptFile(elem, key)
-#         animated_marker()
-#     print(colors.fg.magenta, "Process Complete. Press any key to go to interface", colors.reset)
-#     input()
+output = ""
+text_file = "./encrypt_text.txt"
 
 def choiceMenu(uc, key):
     global output
     if(uc == "1"):
-        encryptFile(file, key)
+        encryptFile(text_file, key)
+        animated_marker()
+        input("Process Complete! Please press any key!")
     elif(uc == "2"):
-        decryptFile(file, key)
+        decryptFile(text_file, key)
+        animated_marker()
+        input("Process Complete! Please press any key!")
     elif(uc == "3"):
         output = encryptMessage(key)
-    else:
+        input("Process Complete! Please press any key!")
+    elif(uc == "4"):
         if(str(output) == ""):
             print(colors.fg.red, "You have to encrypt first!!!!!", colors.reset)
+            input("Process Complete! Please press any key!")
             return
         else:
             decryptMessage(key,output)
+        input("Process Complete! Please press any key!")
+    elif(uc == "5"):
+        filePassage(uc,key)
+    elif(uc == "6"):
+        filePassage(uc,key)
+    elif(uc == "7"):
+        

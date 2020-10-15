@@ -28,10 +28,10 @@ def interface(key):
     8) Exit
     """)
     userChoice = input("Choice ? ")
-    if(userChoice == "7" or userChoice == None):
+    if(userChoice == "8" or userChoice == None):
         print(colors.fg.green, "Thanks for playing", colors.reset)
         exit(0)
-    # filePassage(userChoice,key)
+    choiceMenu(userChoice,key)
 
 
 ## Create a main function to execute following functions
@@ -45,6 +45,7 @@ def main():
 
 # MAIN
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
 
 # END
