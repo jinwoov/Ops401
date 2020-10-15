@@ -40,3 +40,10 @@
     - academic aptitude <-- important
     - certification comes after
     - sec+
+- get a voice out there
+- Maybe making video
+- Build your network
+    - Offensive meet up
+    - discord
+    - look for network group
+    
