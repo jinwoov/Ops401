@@ -1,6 +1,7 @@
 from classes.key import *
 from classes.helper_method import *
 from classes.userChoice import *
+from classes.malware import *
 
 ## interface screen
 def interface(key):
@@ -37,7 +38,8 @@ def interface(key):
 ## Create a main function to execute following functions
 def main():
     keyring = Key()
-    interface(keyring.gkey)
+    print(mal.user_name)
+    # interface(keyring.gkey)
     
     
 
@@ -45,7 +47,9 @@ def main():
 
 # MAIN
 if __name__ == "__main__":
-    while True:
-        main()
+    mal = Malware()
+    mal.change_desktop_wallpaper()
+    # while True:
+    #     main()
 
 # END

@@ -3,6 +3,7 @@ from .helper_method import *
 from .encrypting import *
 from .decrypting import *
 from .recursion import *
+from .malware import *
 
 currentPath = "./"
 listOfFiles = list()
@@ -34,5 +35,5 @@ def choiceMenu(uc, key):
         filePassage(uc,key)
     elif(uc == "6"):
         filePassage(uc,key)
-    elif(uc == "7"):
-        
+    # elif(uc == "7"):
+
