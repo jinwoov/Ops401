@@ -58,4 +58,11 @@ Https => SSL
     - normal/ uncontrolled
 - Standards of classification
     - content based
-    - inspect the file and 
+        - inspect the file
+        - major exfiltration
+    - context based
+    - user based
+- PCISSC
+    - Payment card
+    - PCI don't enforce
+    - banks

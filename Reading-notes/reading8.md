@@ -26,3 +26,4 @@
 - Data protection is everyones job and comapny should create standards to keep others in loop with security 
 - When creating a DLP solution, it is important to involve the leaders within your company who will become the main stakeholders.
 - Encryption is important 
+- Globex
