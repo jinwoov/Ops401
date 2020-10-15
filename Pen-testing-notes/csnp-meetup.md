@@ -90,4 +90,17 @@
 
 - ISC^2 - CISSP is not a entry !!
 - CISA -- build -> info sec 
-- 
+- entry level -> spec is horrible, 
+- Analyst -> Pen tester
+
+- Web dev -> pen test 
+    - you need to start putting mind set to the security
+    - input validation 
+    - sec+
+    - be able to say vulnerability exploit -> i can survive
+    - ISC => SSP
+    - Sec+
+- Software dev -> dev sec ops , sec ops (lot of opportunity)
+- Take on security <---
+
+- You should patch
