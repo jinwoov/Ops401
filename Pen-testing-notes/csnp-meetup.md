@@ -51,4 +51,43 @@
     - mostly large company has pen test
     - just pen test job
     - Ops sec, dev sec ops => pen test
-    - 
+    - Remediation: the action of remedying something, in particular of reversing or stopping environmental damage.
+    - analyst, security, vulnerability <-- keywords
+    - third party pen test
+- interview  question
+    - what is one tool that you would use to access fire wall
+    - what ports
+    - remote access protocol
+    - prepare test to do 
+    - ask them to report of vulnerability report 
+    - have pen test template ready to go
+- pen test exam
+    - oscp - study the environment
+         - get comfortable with NMAP
+    - birp, swagger, web app 
+        - rapid 7 
+        - scout sweep
+        - open source tool
+        - enterprise license tool 
+    - OWASP 
+        - ZAP: web app
+        - volunteer!
+        - wireshark
+        - proxy: birp, zap
+        - finger printer
+        - post exploit: metasploit
+
+## Cloud 
+- g pen not covering
+- e learn security - whats now and whats being pen tested
+- have web portion 
+- most of the cloud pen tester not have certs
+- get your experience and move gradually 
+- fire up a web app and better you know, how they are admin better you will know
+    - root key?
+    - builder, defense stance point
+
+
+- ISC^2 - CISSP is not a entry !!
+- CISA -- build -> info sec 
+- 
