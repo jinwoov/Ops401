@@ -23,3 +23,6 @@ Switch(config)#monitor session 1 destination interface gigabitEthernet 1/24
 - TO you can get a access to the temp key by using Session key log file or private key of the server
 - Both of getting the key is going to hard task and only way to decrypt is using WireShark which will be through RSA
 - Each of the line on the bottom shows the layer of internet request
+- when there is full drop after incline on the graph it is packet drop for 3 ACK then when it climbs up again it goes through fast recovery
+- Slow start comes up when there is a drop and wait
+     - increase exponentially growth after packet drop

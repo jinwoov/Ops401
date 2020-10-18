@@ -24,4 +24,5 @@ This repository is collections of readings, code-challenges and class-notes of O
 6. [Reading 7: Protecting Data at Rest with Devices](./Reading-notes/reading7.md)
 7. [Reading 8: Data Loss Prevention and Data](./Reading-notes/reading8.md)
 8. [Reading 9: PKI - Public Key Infrastructure](./Reading-notes/reading9.md)
+9. [Reading 11: Network Packet Analysis with Wireshark](./Reading-notes/reading11.md)
   
