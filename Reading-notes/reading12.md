@@ -12,4 +12,6 @@
     - NIDS and an HIDS are complementary system that differ by the position
 - NIDS has quicker response tme than the HIDS and they are also easier to implement
 - As they do not needs software loaded and managed at the different hosts in the network.
+- Another benefit of an NIDS is that they detect incidents in real-time.
+- NIDS allow for quicker response.
 - 
