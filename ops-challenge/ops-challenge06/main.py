@@ -10,6 +10,7 @@
 from classes.scanner import *
 
 # Declaring function
+## Interface of this application to ask user what they want to do with this app.
 def interface():
     print("""
 
@@ -26,12 +27,15 @@ def interface():
     Please enter what you would like to perform!!
 
     1) Scanning for vulnerability
-    2) Exit
+    2) Scanning for vulnerability for specific port
+    3) Exit
 
     """)
     userInput = input()
     if(userInput == "1"):
         scanner()
+    elif(userInput == "2"):
+        scannerPort()
     else:
         print("Thanks for using this application")
         exit(0)
