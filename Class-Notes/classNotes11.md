@@ -25,4 +25,14 @@
 - Firewall are smart enough that 
 - 3 way handshake in the wire shark
 ![Wireshark threeway handshakes](./assets/wireshark.png)
+- HTTP methods
+    - GET
+    - POST
+    - PUT
+    - DELETE
+    - HEAD
+    - PATCH
+    - OPTIONS
+- You can trace the website and see how it works
+
 - 
