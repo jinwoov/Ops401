@@ -20,13 +20,12 @@ def testing_vulnerability(host, destPort):
         response = sr1(IP(dst=host)/TCP(sport=src_port,dport=po,flags="S"),timeout=1,verbose=0)
         print(f"The source port was from {src_port} to {host}:{po}")
         if(str(type(response)) == "<class 'NoneType'>"):
-             print("Port is filtered and is silently dropped")
-        elif(response.getlayer(TCP).flags == 0x14):
+            print("Port is filtered and is silently dropped")
+        elif(str(response).__contains__("x14")):
             print("Port is closed")
-        elif(response.getlayer(TCP).flags == 0x12):
+        elif(str(response).__contains__("x12")):
             print("Port is open ")
             response = sr1(IP(dst=host)/TCP(sport=src_port,dport=po,flags="R"),timeout=1,verbose=0)
-
         time.sleep(1.5)
     input("Enter any key to continue")
 
