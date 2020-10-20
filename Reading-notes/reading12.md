@@ -14,4 +14,19 @@
 - As they do not needs software loaded and managed at the different hosts in the network.
 - Another benefit of an NIDS is that they detect incidents in real-time.
 - NIDS allow for quicker response.
-- 
+- Pros of Network Intrusion Detection System:
+    - firewall can show you information between two hosts, but NIDS can tuned to show you the specific content within the packet.
+    - This can be used to prevent intrusion such as exploitation attacks or compromise endpoint device.
+    - The sensor an look for both TCP and UDP protocols.
+    - IDS can analyze the amount and types of attacks. This can be used to change your security systems
+    - Make it easier to maintain.
+    - They cn boost efficiently as data within the network packets and identify the services or operating systems that are being utilized.
+- Cons of using Network Intrusion Detection Systems
+    - Not prevent incident by themselves so not automating.
+    - Needs experienced admin to set it up.
+    - Does not process encrypted packets
+    - IP packets can still be faked and they can be spoofed
+    - False positives are very frequent with NIDS. It can be reduced to tune down the false positives.
+    - They are susceptible to protocol based attacks. NIDS can be errored out by protocol analyzer bugs and invalid data
+    - Signature library needs t be continually updated.
+        - If its not updated routinely, it will not register latest attacks.
