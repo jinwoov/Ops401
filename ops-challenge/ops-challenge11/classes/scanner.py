@@ -22,7 +22,7 @@ def testing_vulnerability(host, destPort):
         if(str(type(response)) == "<class 'NoneType'>"):
              print("Port is filtered and is silently dropped")
         elif(response.getlayer(TCP).flags == 0x14):
-            print(response.getlayer(TCP).flags)
+            print("Port is closed")
         elif(response.getlayer(TCP).flags == 0x12):
             print("Port is open ")
             response = sr1(IP(dst=host)/TCP(sport=src_port,dport=po,flags="R"),timeout=1,verbose=0)
