@@ -39,3 +39,13 @@ Subnet mask of 255.255.0.0 CDR /16 Class B
     - 
 - HIDS
     - Hardware intrusion system
+- Managed switchs are like VLAN trunking
+- IDS /IPS shows up on literally antying
+- VLAN can be its own subnet
+
+- Dont deploy and custom snort
+dont do updating ~~~
+
+promiscuous mode
+
+
