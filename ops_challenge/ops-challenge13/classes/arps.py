@@ -3,11 +3,13 @@ from .scanner import *
 
 ## Class to contain all of the arp properties and methods.
 class Arps:
-        
+    
+    ## properties when the object is instantiated
     def __init__(self):
         self.subnet = self.askWhatGateWay()
         self.list_IP = list()
 
+    ## arpy function that will make ARP scan and get the IP that is responsive
     def arpy(self):
         arp = s.ARP(pdst=self.subnet)
         bcast = "ff:ff:ff:ff:ff:ff"
@@ -23,12 +25,12 @@ class Arps:
         self.checkPorts(self.list_IP)
         input("Please enter any key to continue")
         
-
+    ## Checking for the ports
     def checkPorts(self, ip_adds):
         dst_port = [21, 22, 80, 443]
         for ip in ip_adds:
             testing_vulnerability(str(ip), dst_port)
         
-
+    ## Asking user for what subnets
     def askWhatGateWay(self):
         return input("what subnet do you want to ARP? ")
