@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
 # Script Name: Ops Challenge 12 - Network Security Tool with Scapy Part 1 of 3
 # Author: Jin Kim
-# Date of last revision: 10/19/2020
-# Description of purpose: Encrypt and decrypt the folder recursively.
+# Date of last revision: 10.20.2020
+# Description of purpose: To analyze if the subnet is responsive to ICMP packets
 
 #referenced doc: https://santanderglobaltech.com/en/guide-using-scapy-with-python/
 # This is the main file that will be executed when the application is ran.
 # Importing python library
 from classes.scanner import *
 from classes.icmp_scan import *
+import os
 
 # Declaring function
 ## Interface of this application to ask user what they want to do with this app.
 def interface():
+    os.system("clear")
     print("""
 
 
@@ -23,7 +25,8 @@ def interface():
     | | | | | | (_) | (__| | | | \__ \ |_) | | (_) | | |_ 
     |_| |_| |_|\___/ \___|_| |_|_|___/ .__/|_|\___/|_|\__|
                                     | |                  
-                                    |_|                  
+                                    |_|   
+                                    by Jin Kim               
 
     Please enter what you would like to perform!!
 

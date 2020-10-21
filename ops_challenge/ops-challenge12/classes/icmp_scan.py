@@ -4,12 +4,21 @@ import ipaddress,time
 from scapy.all import *
 from .colors import *
 
-
+# Decalring variable
+## lists that will be displayed after running the analysis
 ip_successful = list()
 ip_filtered = list()
 ip_down = list()
 
+## Clearing any lists
+def start_fresh():
+    ip_successful.clear()
+    ip_down.clear()
+    ip_filtered.clear()
+
+## Scanning the subnet by sending ICMP packet
 def scannerICMP():
+    start_fresh()
     networkIP = input("Which subnet do you want to scan? ")
     while (not ("/") in networkIP):
         networkIP = input("Please enter correct subnet!! ")
@@ -37,23 +46,24 @@ def scannerICMP():
                 ip_successful.append(str(host))
     print_outcome(networkIP)
 
+## After pinging is done this function is used to print all of the outcome
 def print_outcome(networkIP):
     print(f"""
 
     ################################
     Analysis of subnet {networkIP}
-    ################################ 
+    ################################
     """)
     print(f"""
     These hosts were {colors.fg.red}down{colors.reset}:
-    {ip_down}
+    {colors.fg.boldwhite}{ip_down}{colors.reset}
     """)
     print(f"""
     These hosts were {colors.fg.orange}blocking{colors.reset} ICMP packet:
-    {ip_filtered}
+    {colors.fg.boldwhite}{ip_filtered}{colors.reset}
     """)
     print(f"""
     These hosts were {colors.fg.green}successfully{colors.reset} receive/send ICMP packet:
-    {ip_successful}
+    {colors.fg.boldwhite}{ip_successful}{colors.reset}
     """)
     input("Enter any key to continue")
