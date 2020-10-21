@@ -26,8 +26,9 @@ def interface():
 
     Please enter what you would like to perform!!
 
-    1) Scanning for vulnerability
-    2) Scanning for vulnerability for specific port
+    1) TCP Port Range Scanner
+    2) TCP Port Range Scanner for specific port
+    3) Scanning for ICMP ping Sweep Mode
     3) Exit
 
     """)
@@ -36,6 +37,8 @@ def interface():
         scanner()
     elif(userInput == "2"):
         scannerPort()
+    elif(userInput == "3"):
+        scannerICMP()
     else:
         print("Thanks for using this application")
         exit(0)
