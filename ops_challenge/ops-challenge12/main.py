@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Script Name: Ops Challenge 11 - Network Security Tool with Scapy Part 1 of 3
+# Script Name: Ops Challenge 12 - Network Security Tool with Scapy Part 1 of 3
 # Author: Jin Kim
 # Date of last revision: 10/19/2020
 # Description of purpose: Encrypt and decrypt the folder recursively.
@@ -8,6 +8,7 @@
 # This is the main file that will be executed when the application is ran.
 # Importing python library
 from classes.scanner import *
+from classes.icmp_scan import *
 
 # Declaring function
 ## Interface of this application to ask user what they want to do with this app.
@@ -26,9 +27,10 @@ def interface():
 
     Please enter what you would like to perform!!
 
-    1) Scanning for vulnerability
-    2) Scanning for vulnerability for specific port
-    3) Exit
+    1) TCP Port Range Scanner
+    2) TCP Port Range Scanner for specific port
+    3) Scanning for ICMP ping Sweep Mode
+    4) Exit
 
     """)
     userInput = input()
@@ -36,6 +38,8 @@ def interface():
         scanner()
     elif(userInput == "2"):
         scannerPort()
+    elif(userInput == "3"):
+        scannerICMP()
     else:
         print("Thanks for using this application")
         exit(0)
