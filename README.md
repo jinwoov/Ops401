@@ -26,4 +26,5 @@ This repository is collections of readings, code-challenges and class-notes of O
 8. [Reading 9: PKI - Public Key Infrastructure](./Reading-notes/reading9.md)
 9. [Reading 11: Network Packet Analysis with Wireshark](./Reading-notes/reading11.md)
 10. [Reading 12: Intrusion Detection and Prevention Systems (IDS/IPS)](./Reading-notes/reading12.md)
+11. [Reading 13: Cloud Architecture Security](./Reading-notes/reading13.md)
   
