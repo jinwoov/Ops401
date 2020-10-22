@@ -43,5 +43,5 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 4. [Folder Encryption Tool](./ops_challenge/ops-challenge04.py)
 5. [Ransomeware Tool](./ops_challenge/ops_challenge05)
 6. [TCP Port Scanner](./ops_challenge/ops_challenge11)
-7. [ICMP Packet Scanner](./ops_challenge/ops_challenge12)
-8. [ARP Scanner with Port Scan](./ops_challenge/ops_challenge13)
+7. [ICMP Packet Scanner](./ops_challenge/ops-challenge12)
+8. [ARP Scanner with Port Scan](./ops_challenge/ops-challenge13)
