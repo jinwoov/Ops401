@@ -18,7 +18,6 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 
 ## Reading Notes
 
-### Ops401 - Cybersecurity Engineer
 
 1. [Reading 1: Kali Linux and Metasploit](./Reading-notes/reading1.md)
 2. [Reading 2: ISCM with Nagios](./Reading-notes/reading2.md)
