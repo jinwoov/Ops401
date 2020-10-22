@@ -36,9 +36,12 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 
 ---
 
-## Ops Challenge
+## Cybersecurity Tools
 1. [Ping Test Tool](./ops_challenge/ops-challenge01.py)
 2. [Send Email Tool](./ops_challenge/ops-challenge02.py)
 3. [File Encryption Tool](./ops_challenge/ops-challenge03.py)
 4. [Folder Encryption Tool](./ops_challenge/ops-challenge04.py)
 5. [Ransomeware Tool](./ops_challenge/ops_challenge05)
+6. [TCP Port Scanner](./ops_challenge/ops_challenge11)
+7. [ICMP Packet Scanner](./ops_challenge/ops_challenge12)
+8. [ARP Scanner with Port Scan](./ops_challenge/ops_challenge13)
