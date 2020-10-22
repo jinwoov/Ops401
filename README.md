@@ -10,7 +10,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 
 ---
 
-*Author:* [Jin Kim](https://www.linkedin.com/in/jinkim808)
+*Author:*<a href="https://www.linkedin.com/in/jinkim808" target="_blank"> Jin Kim</a>
   
 [Deployed Website](https://jinwoov.github.io/Ops401/)
 
