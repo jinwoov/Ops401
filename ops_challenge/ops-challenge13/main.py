@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# Script Name: Ops Challenge 12 - Network Security Tool with Scapy Part 1 of 3
+# Script Name: Ops Challenge 13 - Network Security Tool with Scapy Part 3 of 3
 # Author: Jin Kim
-# Date of last revision: 10.20.2020
-# Description of purpose: To analyze if the subnet is responsive to ICMP packets
+# Date of last revision: 10.21.2020
+# Description of purpose: To analyze endpoints with ARP packet and further look for vulnerability by scanning their ports.
 
 #referenced doc: https://santanderglobaltech.com/en/guide-using-scapy-with-python/
 # This is the main file that will be executed when the application is ran.

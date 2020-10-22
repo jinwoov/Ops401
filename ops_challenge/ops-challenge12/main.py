@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Script Name: Ops Challenge 12 - Network Security Tool with Scapy Part 1 of 3
+# Script Name: Ops Challenge 12 - Network Security Tool with Scapy Part 2 of 3
 # Author: Jin Kim
 # Date of last revision: 10.20.2020
 # Description of purpose: To analyze if the subnet is responsive to ICMP packets
