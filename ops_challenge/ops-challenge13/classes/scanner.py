@@ -36,16 +36,13 @@ def testing_vulnerability(host, destPort):
 ## Promting user if they want to continue to put more ports
 def userPrompt():
     output = input("Anymore port? (y/n) ")
-    if(output.lower() == "y"):
-        return True
-    else:
-        return False
+    return True if(output.lower() == "y") else False
 
 ## Scanning to see which port they want to scan
 def scannerPort():
     try:
         host = ask_host()
-        dst_port = []
+        dst_port = list()
         dst_port.append(int(input("What port do you want to scan? ")))
         currentOutput = userPrompt()
 
