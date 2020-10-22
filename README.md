@@ -1,20 +1,24 @@
-# Ops 401
+# Ops 401 -Cybersecurity Engineering
 
 ![Application License](https://img.shields.io/github/license/jinwoov/Ops401)
 ![Last Committed](https://img.shields.io/github/last-commit/jinwoov/Ops401)
 ![Most Used Language](https://img.shields.io/github/languages/top/jinwoov/Ops401)
 
-*Author: Jin Kim*  
+---
+
+This repository consists of readings, cybersecurity tools and class-notes of Ops401 class
+
+---
+
+*Author:* [Jin Kim](https://www.linkedin.com/in/jinkim808)
   
 [Deployed Website](https://jinwoov.github.io/Ops401/)
 
 ---
 
-This repository is collections of readings, code-challenges and class-notes of Ops401 class
+## Reading Notes
 
-# Reading Notes
-
-## Ops401 - Cybersecurity Engineer
+### Ops401 - Cybersecurity Engineer
 
 1. [Reading 1: Kali Linux and Metasploit](./Reading-notes/reading1.md)
 2. [Reading 2: ISCM with Nagios](./Reading-notes/reading2.md)
@@ -29,3 +33,12 @@ This repository is collections of readings, code-challenges and class-notes of O
 11. [Reading 13: Cloud Architecture Security](./Reading-notes/reading13.md)
 12. [Reading 14: Amazon Virtual Private Cloud](./Reading-notes/reading14.md)
   
+
+---
+
+## Ops Challenge
+1. [Ping Test Tool](./ops_challenge/ops-challenge01.py)
+2. [Send Email Tool](./ops_challenge/ops-challenge02.py)
+3. [File Encryption Tool](./ops_challenge/ops-challenge03.py)
+4. [Folder Encryption Tool](./ops_challenge/ops-challenge04.py)
+5. [Ransomeware Tool](./ops_challenge/ops_challenge05)
