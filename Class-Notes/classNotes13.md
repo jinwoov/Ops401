@@ -31,4 +31,36 @@ Cloud Security
 - NIST - has to be compliant to the regulation
 - Database
 - Elasticity
-- 
+- private cloud vs public cloud vs hybrid cloud
+    - private
+
+- types 
+    - IaaS: infrastructure as a service
+    - SaaS
+    - PaaS
+
+
+VPC
+- AWS
+    - shared cloud with others
+    - Linux
+    - how do i separate myself from others
+    - virtual private cloud
+    - build our lan topology
+- VPC separates network
+- cloud -> firewall -> router -> switch -> endpoints 3
+` IP chicken`
+- public IP 
+- Elastic IP
+    - failing to assigning 
+    - Gateway - internet gateway
+- if you forget to assign gateway
+    - there is no route to out side
+- deploy VPC
+    - recommend 172.31.0.0/16 <-- class B
+    - AWS recommend class B
+        - Each VPC needs subnet and subnet
+            - they will have CIDR block will have 24
+            - 172.31.1.0/24 <--- last octet
+    - if the routing is messed up then it will be messed up
+        - 
