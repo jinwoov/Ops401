@@ -31,6 +31,8 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 10. [Reading 12: Intrusion Detection and Prevention Systems (IDS/IPS)](./Reading-notes/reading12.md)
 11. [Reading 13: Cloud Architecture Security](./Reading-notes/reading13.md)
 12. [Reading 14: Amazon Virtual Private Cloud](./Reading-notes/reading14.md)
+13. [Reading 15: Threat Analysis, Cyber Kill-Chain, and Stuxnet](./Reading-notes/reading16.md)
+
   
 ---
 
