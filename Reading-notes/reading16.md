@@ -57,3 +57,8 @@
 
 ## Installation
 - inject a payload that will give more access to the attacker 
+- DLL hijacking
+- Registry changes to make my program autmatically startup
+
+## Command and Control
+- system has been completely compromise
