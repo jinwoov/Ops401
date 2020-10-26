@@ -29,3 +29,6 @@ Threat
 - spy
 
 - Recon -> Weaponization -> delivery -> exploitation -> installation -> command and control -> action of objectives
+
+ioc system that is taken over
+

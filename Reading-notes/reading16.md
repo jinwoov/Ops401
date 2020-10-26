@@ -62,3 +62,6 @@
 
 ## Command and Control
 - system has been completely compromise
+
+## Zero day exploit
+- secret exploits that only the attacker knows
