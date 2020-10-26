@@ -33,7 +33,6 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 11. [Reading 13: Cloud Architecture Security](./Reading-notes/reading13.md)
 12. [Reading 14: Amazon Virtual Private Cloud](./Reading-notes/reading14.md)
   
-
 ---
 
 ## Cybersecurity Tools
