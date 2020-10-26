@@ -1,7 +1,17 @@
+#!/usr/bin/env python3
+# Script Name: Ops Challenge 16 - Automated Brute Force Wordlist Attack Tool Part 1 of 3
+# Author: Jin Kim
+# Date of last revision: 10.26.2020
+# Description of purpose: To see if the password is correctly protected and in a risk of vulnerability.
+
+# This is the main file that will be executed when the application is ran.
+# Importing python library
+
 from classes.offensiveDic import *
 from classes.defensivePW import *
 from time import sleep
 
+## Main interface outlook so when the application start it will trigger this.
 def interface():
     print("""
 
