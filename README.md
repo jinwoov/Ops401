@@ -33,6 +33,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 12. [Reading 14: Amazon Virtual Private Cloud](./Reading-notes/reading14.md)
 13. [Reading 16: Threat Analysis, Cyber Kill-Chain, and Stuxnet](./Reading-notes/reading16.md)
 14. [Reading 17: Threat Analysis Using MITRE ATT&CK](./Reading-notes/reading17.md)
+15. [Reading 18: Web Application Threat Modeling with OWASP, DREAD](./Reading-notes/reading18.md)
 
   
 ---
