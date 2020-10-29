@@ -34,6 +34,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 13. [Reading 16: Threat Analysis, Cyber Kill-Chain, and Stuxnet](./Reading-notes/reading16.md)
 14. [Reading 17: Threat Analysis Using MITRE ATT&CK](./Reading-notes/reading17.md)
 15. [Reading 18: Web Application Threat Modeling with OWASP, DREAD](./Reading-notes/reading18.md)
+16. [Reading 19: Threat Modeling with DFDs, STRIDE](./Reading-notes/reading19.md)
 
   
 ---
