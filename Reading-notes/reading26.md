@@ -1,4 +1,4 @@
-# Is Cybersecurity Automation The Future?
+# Setting up Splunk SIEM
 
 - Automation is driven to be industry standards
 - Automation can be used to detect and scan dvices on the enterprise network
