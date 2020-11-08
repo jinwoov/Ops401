@@ -12,5 +12,4 @@
     - Authentication: Splunk enterprise must run s a user with credentials to access those machine
     - Disk bandwidth: Splunk needs a lot of disk I/O bandwidth. Configure anti virus to avoid monitoring Splunk Enterprise directories.
 - To install the universal forwarder with a static configuration
-    - You dont need to configure later
-    
+    - You don't need to configure later
