@@ -10,4 +10,9 @@
 - Operating Systems supported EC2 supports Linux
 - Webserver: connected to the public internet responsible for displaying the site images and interacting with your customers
 - Application server: open connection with your payment processor.
-- Daatabase Server: where your data for customer and payment information may resides.
+- Database Server: where your data for customer and payment information may resides.
+## The incident
+- Sites was configured Linux,Apache, MySQL, PHP (LAMP)
+- secret SSH was generated to authenticate the protect and communication channel.
+- IT management decide that default account for developers would be "root"
+- 
