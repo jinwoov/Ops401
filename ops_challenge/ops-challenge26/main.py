@@ -14,6 +14,6 @@ from previous_ops.main import *
 ## Main
 try:
     interface()
-except Exception:
-    logging.exception("Erorr was: ")
+except Exception as msg:
+    logging.exception(msg)
     exit(1)

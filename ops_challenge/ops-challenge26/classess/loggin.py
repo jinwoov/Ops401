@@ -12,9 +12,15 @@ class OneLineExceptionFormatter(logging.Formatter):
 
 
 root = logging.getLogger()
-formatter = OneLineExceptionFormatter(logging.BASIC_FORMAT)
-fh = logging.FileHandler("./error.log")
-fh.setLevel(os.environ.get("LOGLEVEL", "INFO"))
-fh.setFormatter(formatter)
-root.addHandler(fh)
+logging.basicConfig(filename="./error.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')
+logging.debug("Debug Information")
+logging.info("Info information")
+logging.warning("Warning information")
+logging.error("Error information")
+logging.critical("Critical information")
+# formatter = OneLineExceptionFormatter(logging.BASIC_FORMAT)
+# fh = logging.FileHandler("./error.log")
+# fh.setLevel(os.environ.get("LOGLEVEL", "INFO"))
+# fh.setFormatter(formatter)
+# root.addHandler(fh)
 
