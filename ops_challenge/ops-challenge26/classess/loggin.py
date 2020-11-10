@@ -10,7 +10,7 @@ class OneLineExceptionFormatter(logging.Formatter):
             result = result.replace("\n", "")
         return result
 
-
+ 
 root = logging.getLogger()
 logging.basicConfig(filename="./error.log", level=logging.DEBUG, format='%(asctime)s:%(levelname)s:%(message)s')
 logging.debug("Debug Information")
