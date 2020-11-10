@@ -53,7 +53,7 @@ def interface():
         user = AuthSSH()
         user.ssh_connection()
         input()
-    else:
+    elif(userInput == "5"):
         print("Exiting......")
         sleep(1)
         exit()
