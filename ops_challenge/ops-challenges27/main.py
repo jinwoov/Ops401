@@ -28,8 +28,7 @@ def interface():
         user_size = taking_inputs("What size do you want to save for each file? ")
         rotating_log(log_file, user_size)
     elif (userInput == "2"):
-        user_time = taking_inputs("How long do you want to wait until you create a new log file? ")
-        rotating_time(log_file, user_time)
+        rotating_time(log_file)
     elif (userInput == "3"):
         print("Thank you !")
         exit(0)
