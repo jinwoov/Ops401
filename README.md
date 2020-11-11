@@ -36,7 +36,8 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 15. [Reading 18: Web Application Threat Modeling with OWASP, DREAD](./Reading-notes/reading18.md)
 16. [Reading 19: Threat Modeling with DFDs, STRIDE](./Reading-notes/reading19.md)
 17. [Reading 26: Setting up Splunk SIEM](./Reading-notes/reading26.md)  
-17. [Reading 27: Adding Data Sources with Splunk SIEM](./Reading-notes/reading27.md)  
+18. [Reading 27: Adding Data Sources with Splunk SIEM](./Reading-notes/reading27.md)  
+19. [Reading 28: Threat Hunting with ELK Stack](./Reading-notes/reading28.md)  
 
   
 ---
