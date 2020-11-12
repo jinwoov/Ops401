@@ -38,6 +38,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 17. [Reading 26: Setting up Splunk SIEM](./Reading-notes/reading26.md)  
 18. [Reading 27: Adding Data Sources with Splunk SIEM](./Reading-notes/reading27.md)  
 19. [Reading 28: Threat Hunting with ELK Stack](./Reading-notes/reading28.md)  
+20. [Reading 29: Cloud incident response in AWS EC2](./Reading-notes/reading29.md)  
 
   
 ---

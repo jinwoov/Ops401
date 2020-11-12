@@ -15,4 +15,3 @@
 - Sites was configured Linux,Apache, MySQL, PHP (LAMP)
 - secret SSH was generated to authenticate the protect and communication channel.
 - IT management decide that default account for developers would be "root"
-- 
