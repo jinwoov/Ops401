@@ -9,11 +9,11 @@ def interface():
     # # else:
     # #     search_linux()
     search_file()
-
+    exit(0)
 
 
 def main():
     interface()
 
-
-main()
+if __name__ == "__main__":
+    main()
