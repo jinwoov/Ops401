@@ -39,7 +39,8 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 18. [Reading 27: Adding Data Sources with Splunk SIEM](./Reading-notes/reading27.md)  
 19. [Reading 28: Threat Hunting with ELK Stack](./Reading-notes/reading28.md)  
 20. [Reading 29: Cloud incident response in AWS EC2](./Reading-notes/reading29.md)  
-20. [Reading 31: Malware Detection with YARA Rules](./Reading-notes/reading31.md)  
+21. [Reading 31: Malware Detection with YARA Rules](./Reading-notes/reading31.md)  
+22. [Reading 32: Malware Traffic Analysis with Wireshark](./Reading-notes/reading32.md)  
 
   
 ---
