@@ -9,4 +9,15 @@
 - If the file is packed knowing the packer can help identify how to unpack the file.
 - ASLR is a feature which simple loads an applictation into memory at somewhat randomized preventing the ability to successfull perform buffer overflow attack.
 - Data execution prevention (DEP) code execution from the data section in memory
+- VirusTotal is simply a summary of the Virus Total lookup.
+- Structured Exception Handling(SEH): the ability of an application to handle exceptions on its own.
+- Malware uses SEH as mechanism to obfuscate their malicious payload.
+- The .text section will contain executable code.
+- Windows only care about entry point and the permission on the sections.
+- packer compresses PE files which can decompress themselves during the runtime.
+- Should also be alarm when there are only few imports.
+- TLS callback and resources can be a sign of malicious code.
+- TLS is piece of code that gets execute before the entry point
+- By placing the malicious code inside of TLS callback, it can trigger the malware before Windows creates process.
+- Most malware is not digitally signed.
 - 
