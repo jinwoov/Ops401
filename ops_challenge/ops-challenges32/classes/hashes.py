@@ -1,4 +1,4 @@
-import hashlib,datetime, os
+import hashlib,datetime, os, getpass
 from .search import *
 from .colors import *
 
@@ -6,7 +6,8 @@ from .colors import *
 def get_hashcode():
     folder_name = input("Enter the folder you want to scan? ")
     output_search(folder_name)
-    input("pajama time")
+    input("Complete")
+
 ## Getting current time stamp
 def get_time():
     dateTimeObj = datetime.datetime.now()
@@ -15,7 +16,12 @@ def get_time():
     
 # Outputting final results
 def output_search(pt):
-    abs_path = os.path.abspath(pt)
+    user = getpass.getuser()
+    abs_path= ""
+    if(pt == "~/"):
+        abs_path = f"C:/User/{user}"
+    else:
+        abs_path = os.path.abspath(pt)
     print(colors.fg.orange, "Timestamp            File-name            Hash-code             Size     File-path", colors.reset)
     for root, dirs, files in os.walk(abs_path):
             for filo in files:
