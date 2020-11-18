@@ -20,4 +20,4 @@ def query_virusTotal():
 def get_hashCode():
     target_file = input("whats the target file? ")
     target_file = os.path.abspath(target_file)
-    return hash_co(target_file)
+    return hash_co(target_file) 
