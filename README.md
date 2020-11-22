@@ -43,7 +43,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 22. [Reading 32: Malware Traffic Analysis with Wireshark](./Reading-notes/reading32.md)  
 23. [Reading 33: Malware Analysis with PEStudio, Ghidra](./Reading-notes/reading33.md)  
 24. [Reading 34: Forensics Investigation with Autopsy](./Reading-notes/reading34.md)  
-
+25. [Reading 36: Scanning the OWASP BWA](./Reading-notes/reading36.md)
   
 ---
 
