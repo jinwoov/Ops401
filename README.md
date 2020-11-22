@@ -44,7 +44,8 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 23. [Reading 33: Malware Analysis with PEStudio, Ghidra](./Reading-notes/reading33.md)  
 24. [Reading 34: Forensics Investigation with Autopsy](./Reading-notes/reading34.md)  
 25. [Reading 36: Scanning the OWASP BWA](./Reading-notes/reading36.md)
-25. [Reading 37: Python in Cybersecurity](./Reading-notes/reading37.md)
+26. [Reading 37: Python in Cybersecurity](./Reading-notes/reading37.md)
+27. [Reading 38: Vulnerability Scanning with Nessus](./Reading-notes/reading38.md)
   
 ---
 
