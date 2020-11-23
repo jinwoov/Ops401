@@ -1,6 +1,13 @@
+# Script Name: Ops Challenge 36
+# Author: Jin Kim
+# Date of last revision: 11/23/2020
+# Description of purpose: Web application vulnerability check 1/3
+
+## Library
 from classes.banner_grab import *
 from time import sleep
 
+## Declare Function
 def interface():
     try:
         print("""
@@ -19,6 +26,7 @@ def interface():
         print(msg)
         exit(1)
 
-
+## Main
 if __name__ == "__main__":
     interface()
+## End

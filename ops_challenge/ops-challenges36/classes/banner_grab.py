@@ -2,6 +2,7 @@ import subprocess
 from time import sleep
 from .colors import *
 
+## main function in this script that will call of the the function
 def banner_grabbing():
 
     user_input = input("what ip/url address do you want to query? ")
@@ -18,6 +19,7 @@ def banner_grabbing():
     print(colors.fg.green, "Whatweb!", colors.reset)
     what_web(user_input)
 
+## What web function
 def what_web(dest):
     if(not "http" in dest):
         dest = f"http://{dest}"
@@ -30,6 +32,7 @@ def what_web(dest):
     sleep(1)
     print("Done")
 
+## curl command that will check web server
 def curl_dest(destIP):
     process2 = subprocess.Popen(["curl", "-s", "-I", destIP])
     try:
@@ -43,6 +46,7 @@ def curl_dest(destIP):
     sleep(1)
     print("Done")
 
+## Universal code that will run both telnet and netcat
 def run_cmd(cmd, dest, port):
     process = subprocess.Popen([cmd, dest, port])
     try:
@@ -52,6 +56,7 @@ def run_cmd(cmd, dest, port):
     sleep(1)
     print("Done")
 
+## Nmap command
 def nmaping(dest):
     process3 = subprocess.Popen(["nmap", "-sV", dest])
     try:
