@@ -1,3 +1,5 @@
+
+# class that contains all of the colors
 class colors:
     reset='\033[0m'
     class fg:

@@ -1,5 +1,7 @@
 import progressbar, time
 from .colors import *
+
+# progress bar
 def animated_marker(): 
     widgets = ['In Process: ', progressbar.AnimatedMarker()] 
     bar = progressbar.ProgressBar(widgets=widgets).start() 

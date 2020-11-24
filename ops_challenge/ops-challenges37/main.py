@@ -11,6 +11,7 @@ from time import sleep
 ## Declare Function
 def interface():
     try:
+        bringforthcookiemonster()
         print("""
         1) Banner Grabbing
         2) Cookie Capture
