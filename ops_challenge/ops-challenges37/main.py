@@ -15,7 +15,8 @@ def interface():
         print("""
         1) Banner Grabbing
         2) Cookie Capture
-        3) Exit
+        3) XSS Vulnerability Detection
+        4) Exit
         """)
         user_answer = input("Whats your choice... ")
 
@@ -23,6 +24,8 @@ def interface():
             banner_grabbing()
         elif (user_answer == "2"):
             get_html()
+        elif (user_answer == "3"):
+            xss_detection()
         else:
             print("exiting.... ")
             sleep(1.5)
