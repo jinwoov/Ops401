@@ -46,7 +46,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 25. [Reading 36: Scanning the OWASP BWA](./Reading-notes/reading36.md)
 26. [Reading 37: Python in Cybersecurity](./Reading-notes/reading37.md)
 27. [Reading 38: Vulnerability Scanning with Nessus](./Reading-notes/reading38.md)
-  
+28. [Reading 39: SQLi with Burp Suite, WebGoat](./Reading-notes/reading39.md)
 ---
 
 ## Cybersecurity Tools
