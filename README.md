@@ -49,6 +49,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 28. [Reading 39: SQLi with Burp Suite, WebGoat](./Reading-notes/reading39.md)
 29. [Reading 41: Reconnaissance](./Reading-notes/reading41.md)
 30. [Reading 42: Scanning and Enumeration with NMAP](./Reading-notes/reading42.md)
+31. [Reading 43: Sniffing and Evasion](./Reading-notes/reading43.md)
 
 ---
 
