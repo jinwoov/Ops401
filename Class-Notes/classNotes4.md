@@ -16,7 +16,7 @@ facebook => SSO DB
     -> One to one relationship to the Facebook account
 - having SSO means there is single point of failure
     - MFA
-        - how, have ,are
+        - know, have ,are
 - One time password: text to the phone
 
 - IAM mechanisms

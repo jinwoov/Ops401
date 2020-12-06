@@ -4,7 +4,7 @@ rule Check_Stuxnet_virus
 {
 	meta: 
 		Author = "Jin Kim"
-		Description = "Checking for infamouse Stuxnet source code snippet, if present this will catch it."
+		Description = "Checking for infamous Stuxnet source code snippet, if present this will catch it."
 	
 	// Referencing the source code to see if the keywords are in the code
 	strings: 
