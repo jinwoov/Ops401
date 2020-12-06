@@ -50,7 +50,7 @@ This repository consists of readings, cybersecurity tools and class-notes of Ops
 29. [Reading 41: Reconnaissance](./Reading-notes/reading41.md)
 30. [Reading 42: Scanning and Enumeration with NMAP](./Reading-notes/reading42.md)
 31. [Reading 43: Sniffing and Evasion](./Reading-notes/reading43.md)
-32. [Reading 43: Exploitation with Metasploit](./Reading-notes/reading44.md)
+32. [Reading 44: Exploitation with Metasploit](./Reading-notes/reading44.md)
 
 ---
 
