@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-# Script Name: Ops Challenge 44
+# Script Name: Ops Challenge 45
 # Author: Jin Kim
-# Date of last revision: 12/7/2020
-# Description of purpose: See if the port is open
+# Date of last revision: 12/8/2020
+# Description of purpose: See what kind of the vulnerability that target has!
 
 
 from classes.port_scanner import *
