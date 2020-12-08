@@ -25,7 +25,7 @@ Rating
 - 1 = low
 
 
-12-16 high
+12-15 high
 8-11 med
 5-7 low
 
