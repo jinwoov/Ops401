@@ -36,18 +36,9 @@ def nmap_interface():
     port_r = input("What port range do you want to scan? (ie. 1-10)")
     port_r = port_r.replace(" ", "")
 
-    try:
-        if resp == '1':
-            scanUni(ip_addr, port_r, "-v -sS", "t")
-        elif resp == '2':
-            scanUni(ip_addr, port_r, "-v -sU", "u")
-        elif resp == '3':
-            get_os(ip_addr, port_r)
-        else:
-            print("Exiting... ")
-            sleep(2)
-            exit(0)
-
-    except Exception as msg:
-        print("Please enter a valid option")
-        print(f"Error was {msg}")
+    if resp == '1':
+        scanUni(ip_addr, port_r, "-v -sS", "t")
+    elif resp == '2':
+        scanUni(ip_addr, port_r, "-v -sU", "u")
+    else:
+        get_os(ip_addr, port_r)

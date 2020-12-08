@@ -22,8 +22,11 @@ def interface():
     """)
     
     user_input = input("Choice?..... ")
-
-    dictionary[user_input]()
+    try:
+        dictionary[user_input]()
+    except Exception as msg:
+        print(colors.fg.red, msg, colors.reset)
+        pass
 
 dictionary = {
     "1": main_banner,
